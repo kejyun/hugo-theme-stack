@@ -1,3 +1,11 @@
 <section class="article-content">
-    {{ .Content }}
+  <!-- Article top advertisement -->
+  {{ partial "partials/advertisement/adsense-top.html" . }}
+
+  <!-- <!-- Article inner advertisement --> -->
+  {{ $content := replace .Content "<!--adsense-->" (partial "advertisement/adsense-in-article.html" .) | safeHTML }}
+  {{ $content }}
+
+  <!-- Article bottom advertisement -->
+  {{ partial "partials/advertisement/adsense-bottom.html" . }}
 </section>

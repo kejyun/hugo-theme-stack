@@ -105,6 +105,19 @@ params:
             enabled: true
         content:
             enabled: true
+    adsense:
+        top:
+            client : "ca-pub-xxxx"
+            slot : "slot-id"
+        bottom:
+            client : "ca-pub-xxxx"
+            slot : "slot-id"
+        article:
+            client : "ca-pub-xxxx"
+            slot : "slot-id"
+        article_auto:
+            client : "ca-pub-xxxx"
+            slot : "slot-id"
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu

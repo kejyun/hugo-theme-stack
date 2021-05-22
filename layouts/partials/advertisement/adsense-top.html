@@ -1,0 +1,12 @@
+{{ if .Site.Params.adsense.top.client }}
+<!-- Adsense advertisement for article top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{{.Site.Params.adsense.top.client}}"
+     data-ad-slot="{{.Site.Params.adsense.top.slot}}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{{ end }}

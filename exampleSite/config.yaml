@@ -144,3 +144,6 @@ related:
 markup:
     highlight:
         noClasses: false
+    goldmark:
+        renderer:
+            unsafe: true
